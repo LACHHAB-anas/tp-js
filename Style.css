@@ -1,0 +1,23 @@
+.bloc {
+  display: flex;
+}
+
+.bloc1 {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  background-color: darkgreen;
+}
+
+.bloc2 {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  background-color: lightpink;
+}
+
+.bloc3 {
+  height: 50px;
+  width: 50px;
+  background-color: rebeccapurple;
+}

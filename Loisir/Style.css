@@ -1,0 +1,15 @@
+* {
+  padding: 3px;
+}
+.center {
+  display: flex;
+}
+
+.label {
+  width: 100px;
+}
+
+input[type="text"] {
+  width: 30%;
+  box-sizing: border-box;
+}

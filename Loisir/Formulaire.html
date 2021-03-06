@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ikram Guerrom</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <h1>Formulaire d'inscription</h1>
+
+    <form>
+        <div class="center">
+            <label class="center-left label" for="nom">Nom:</label>
+            <input  type="text" name="nom" id="nom" />
+        </div>
+        <div class="center">
+            <label class="center-left label" for="prenom">Prénom:</label>
+            <input  type="text" name="prenom" id="prenom" />
+        </div>
+        <div class="center">
+            <label class="center-left label" for="mail">E-mail:</label>
+            <input  type="text" name="mail" id="mail" />
+        </div>
+        <div class="center">
+            <label class="center-left label" for="portable">Portable:</label>
+            <input  type="text" name="portable" id="portable" />
+        </div>
+        <div class="center">
+            <label class="center-left label" for="adresse">Adresse:</label>
+            <input  type="text" name="adresse" id="adresse" />
+        </div>
+        <div class="center">
+            <label class="center-left label" for="sex">Sexe:</label>
+            <FORM >
+                <INPUT id="sexe1" type= "radio" name="sexe" value="masculin"> Masculin
+                <INPUT id="sexe0" type= "radio" name="sexe" value="feminin"> Féminin
+           </FORM>
+           
+        </div>
+        <div class="center">
+            <label class="center-left label" for="nationnalite">Nationnalité:</label>
+            <select name="nationnalite" id="">
+                <option value="moroccan">Moroccan</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="italian">Italian</option>
+            </select>
+        </div>
+        <div class="center">
+            <label  for="nom">Centres d'intérêts:</label>
+            <div class="center">
+                <div class="center">
+                    <input id="lecture" name="lecture" type="checkbox">
+                    <label for="lecture">Lecture</label>
+                </div>
+                <div class="center">
+                    <input id="musique" name="musique" type="checkbox">
+                    <label for="musique">Musique</label>
+                </div>
+                <div class="center">
+                    <input id="sport" name="sport" type="checkbox">
+                    <label for="sport">Sport</label>
+                </div>
+                <div class="center">
+                    <input id="danse" name="danse" type="checkbox">
+                    <label for="danse">Danse</label>
+                </div>
+                <div class="center">
+                    <input id="autre" name="autre" type="checkbox">
+                    <label for="autre">Autre</label>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <label class="center-left" for="vip">VIP:</label>
+            <div class="center">
+                    <input id = "vip1" name="vip" value="oui" type="radio"> Oui
+                    <input id = "vip0" name="vip" value="non" type="radio"> Non
+            </div>
+        </div>
+        <br>
+
+    <button type="submit" onclick="confirmer(this)">Confirmer</button>
+
+    </form>
+
+	<script type="text/javascript" src="Formulaire.js"></script>
+</body>
+</html>
